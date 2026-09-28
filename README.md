@@ -3,12 +3,14 @@
 Data and code accompanying the manuscript:
 
 **Effect of acclimation duration on the repeatability of boldness in *Pomatoschistus flavescens***
+
 Martins-Cardoso, S. & Faria, A.M.
+
 Submitted to *Behavioural Processes*.
 
 ## General information
 
-| | |
+| Item | Details |
 |---|---|
 | Species | *Pomatoschistus flavescens* (two-spotted goby) |
 | Life stage | Wild-caught adults |
@@ -56,3 +58,7 @@ Note: the bootstrap and power simulations are computationally intensive; a full 
 Space-use repeatability was estimated with `rptR` (Gaussian LMM), with trial number and standardised SL as fixed effects and individual ID as a random effect. Sensitivity to the logit adjustment (adj = 0.001, 0.01, 0.05) is reported in Figure S1.
 
 Fixed effects (trial number and SL) are taken from the same models used for the variance components (Table 4) and are written to `Table_fixed_effects.csv`.
+
+## License
+
+Code (`BP_Analysis_Complete.R`) is released under the MIT License (see `LICENSE`). Data (`RawData21.xlsx`) are released under the Creative Commons Attribution 4.0 International licence (CC BY 4.0).
